@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const transporter = require("../Config/Transporter");
-
+// const sgMail = require("../Config/Transporter");
 // Single Email Function
 
 // async function sendReporterEmailTemplate(reporter, password) {
@@ -41,7 +41,7 @@ const transporter = require("../Config/Transporter");
 //       subject: "Registration Details",
 //       html: receiverContent,
 //     };
-  
+
 //     await sgMail.send(userMsg);
 //     return { success: true, message: `Email sent to ${reporter.email}` };
 //   } catch (error) {
